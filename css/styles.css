@@ -1,0 +1,249 @@
+/* PAGE ELEMENTS */
+body{  background-color:#E4C390; font-family:'Quattrocento Sans'; }
+body p{ margin:0 0 12px 0; }
+#main-frame{ -moz-box-shadow: 0 0 25px #555; -webkit-box-shadow: 0 0 25px #555; box-shadow: 0 0 25px #555; width:1000px;  margin:50px auto 20px auto; z-index:-5; }
+#footer-frame{ width:1000px; margin:0 auto 50px auto; }
+
+/* HEADER ELEMENTS */
+hr{ border: 0; border-bottom: 2px dashed #ccc; background: #999; }
+h1 { font-family:'Sorts Mill Goudy'; font-size:1.8em; font-weight:bold; }
+h1 a{ text-decoration:none; color:black; }
+h1 a:hover { color:#A02B22; }
+h1 span { font-size:.8em; color:#4F4F4F; }
+h1 span a{ color:#4F4F4F;}
+h1.page_header { margin-top:0px; }
+h2 { font-family:'Sorts Mill Goudy'; font-size:1.4em; font-weight:bold; }
+h3 { font-family:'Quattrocento Sans'; font-weight:bold; font-size:1.1em; border-bottom: 1px solid black; }
+h4 { font-family:'Playfair Display SC'; font-weight:bold; font-size:1.5em; margin:0px; text-align:center; text-decoration:none; color:black; }
+h5{ font-family:'Julius Sans One'; font-weight:bold; font-size:1.4em; line-height:1em; margin:0px; text-align:center; }
+h6{ font-family:'Pinyon Script'; font-size:1em; margin:0px; text-align:center; font-weight:normal; }
+.patch-hyperlink{ text-decoration:none; color:black; }
+
+/* MENU STYLES */
+#sideNavMenu{ min-width:143px; }
+#sideNavMenu ul{ list-style:none; padding:0 10px 0 10px; margin:0; font-family:'Quattrocento Sans'; letter-spacing:-2px; font-size:20px; font-weight:500; }
+#sideNavMenu li{ padding:6px 10px; margin:6px 0; }
+#sideNavMenu li:hover{ -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; box-shadow: 0 0 5px #aaa; -moz-box-shadow: 0 0 5px #aaa; -webkit-box-shadow: 0 0 5px #aaa; }
+#sideNavMenuSelected{ -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; box-shadow: 0 0 5px #aaa; -moz-box-shadow: 0 0 5px #aaa; -webkit-box-shadow: 0 0 5px #aaa; background-color: #EEE8E0; }
+#sideNavMenu a{ text-decoration:none; color:#000; }
+
+/* MAIN CONTENT STYLES */
+div.contentContainer { background-image:url('../images/background-full_02.png'); background-repeat:repeat-y; width:1000px; padding-bottom:60px; }
+#allContent{ width:1000px; border-collapse:collapse; }
+#contentSpacer{ min-width:63px; }
+#contentSpacer img { width:63px; }
+#mainContent{ width:750px; padding: 0 40px; }
+
+/* FEATURED PRODUCTS */
+div.featured_prod_header    { text-align:center; font-weight:bold; font-size:28px; font-family:'Stint Ultra Condensed'; }
+div.featured_product        { height:300px; overflow:hidden; }
+div.featured_product table  { padding:5px 10px; width:100%; }
+div.featured_product table td.featured_img  { text-align:center; width:110px; }
+div.featured_product table td.featured_img img { border:1px solid black; height:100px; width:100px; margin:5px; }
+div.featured_product table td.featured_cont { padding:10px 0 0 20px; font-family:'Verdana'; font-size:14px; vertical-align:top; }
+td.featured_desc            { font-family:'Verdana'; font-size:12px; }
+td.featured_desc span.header{ font-weight:bold; font-style:italic; }
+div.featured_prod           { margin-bottom:10px; font-weight:bold; font-style:italic; font-size:12px;position:relative; z-index:102; }
+div.featured_prod a         { color:#000000; text-decoration:none; }
+div.featured_prod a:hover   { color:#A02B22; }
+div.featured_price          { margin-bottom:5px; font-size:12px; font-weight:bold; font-style:italic; }
+div.featured_price div.link { position:relative; z-index:101; }
+div.featured_all            { z-index:101; position:absolute; bottom:10px; width:90%; text-align:center; font-family:'Stint Ultra Condensed'; font-size:20px; }
+div.featured_all a          { text-decoration:none; color:#000000; }
+
+/* PRODUCTS PAGE */
+table.product {  }
+table.product td.product_img{ width:160px; vertical-align:top; }
+table.product td.product_img div { z-index:101;position:relative; }
+table.product td.product_img div img { border:0px; margin-right:10px; max-height:220px;max-width:180px; }
+/*div.products-patch table.product td.product_img div img { max-width:170px; }*/
+table.product td.product_title { border-bottom:1px solid black; height:30px; vertical-align:top; }
+table.product td.product_title span.title { font-family:'Sorts Mill Goudy'; font-size:22px; font-weight:bold; z-index:101;position:relative; }
+table.product td.product_title span.title a{text-decoration:none; color:black; }
+table.product td.product_title span.title a:hover{ color:#A02B22; }
+table.product td.product_price { padding-top:5px; height:30px; }
+table.product td.product_price div { position:relative; z-index:101; }
+table.product td.product_price div table { width:100%; }
+table.product td.product_price div table td span.price { font-style:italic; font-size:1.2em; }
+table.product td.product_desc { vertical-align:top; }
+table.product td.product_desc div { z-index:101; position:relative; }
+table.product td.product_desc div p.pdf_save { text-align:center; }
+table.product td.product_desc div p.pdf_save img{ border:1px solid #787878; width:250px; margin-top:15px; }
+.spacer_div { height:20px; }
+
+.free_prod {
+    -moz-box-shadow:inset 0px 1px 0px 0px #fcf8f2;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fcf8f2;
+	box-shadow:inset 0px 1px 0px 0px #fcf8f2;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fae4bd), color-stop(1, #eac380) );
+	background:-moz-linear-gradient( center top, #fae4bd 5%, #eac380 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae4bd', endColorstr='#eac380');
+	background-color:#fae4bd;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#003366;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	height:28px;
+	line-height:24px;
+	width:120px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+}
+.free_prod:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #eac380), color-stop(1, #fae4bd) );
+	background:-moz-linear-gradient( center top, #eac380 5%, #fae4bd 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eac380', endColorstr='#fae4bd');
+	background-color:#eac380;
+    cursor:pointer;
+}.free_prod:active {
+	position:relative;
+	top:1px;
+}
+
+/* FACEBOOK STYLE */
+.fb-container{ text-align:center; width:708px; }
+
+/* BOOK PROMO STYLES */
+table#book_promo { width:98%; }
+table#book_promo td.book_img { width:200px; }
+table#book_promo td.book_img div { z-index:101;position:relative; }
+table#book_promo td.book_img div img { border:0; height:225px; }
+table#book_promo td.book_desc { padding-left:10px; vertical-align:top; }
+table#book_promo td.book_desc span.title { font-family:'Stint Ultra Condensed'; font-size:2em; }
+table#book_promo td.book_desc span.author { font-family:'Julius Sans One'; font-size:1em; font-weight:bold; }
+table#book_promo td.book_desc hr { margin-top:5px; border-bottom:1px dashed black; background-color:white; }
+table#book_promo td.book_desc div { z-index:101; position:relative; }
+table#book_promo td.book_desc div a { text-decoration:none; }
+table#book_promo td.book_desc div a img { float:right; height:140px; border:0;  }
+
+/* FLIPBOOK PROMO STYLES */
+table#flipbook_promo{ width:98%; }
+table#flipbook_promo td.flipbook_img { width:200px; }
+table#flipbook_promo td.flipbook_img div { z-index:101;position:relative; }
+table#flipbook_promo td.flipbook_img div img { border:0; height:240px; margin-left:15px; margin-right:15px; }
+table#flipbook_promo td.flipbook_desc { padding-left:10px; vertical-align:top; }
+table#flipbook_promo td.flipbook_desc span.title { font-family:'Stint Ultra Condensed'; font-size:2em; }
+table#flipbook_promo td.flipbook_desc span.author { font-family:'Julius Sans One'; font-size:1em; font-weight:bold; }
+table#flipbook_promo td.flipbook_desc hr { margin-top:5px; border-bottom:1px dashed black; background-color:white; }
+table#flipbook_promo td.flipbook_desc div { z-index:101; position:relative; }
+table#flipbook_promo td.flipbook_desc div p.view{ text-align:center; margin-top:10px; font-family:'Stint Ultra Condensed'; font-size:1.5em; }
+table#flipbook_promo td.flipbook_desc div p.view a{ text-decoration:none; color:#000000; }
+table#flipbook_promo td.flipbook_desc div p.view a:hover{ color:#A02B22; }
+
+/* FLIPBOOK EXAMPLE PAGE */
+div#flipbook_quickview p.order{ margin-top:20px; font-family:'Stint Ultra Condensed'; font-size:2em }
+div#flipbook_quickview p.order a{ text-decoration:none; color:#000000; }
+div#flipbook_quickview p.order a:hover{	color:#A02B22; }
+
+/* CONTACT PAGE STYLES */
+.status_good { color:#4ABD3A; font-weight:bold; font-family:'Stint Ultra Condensed'; font-size:24px; }
+.status_bad { color:#D90707; font-size:18px; font-weight:bold; font-family:'Julius Sans One'; }
+
+table.contact { width:100%; }
+table.contact td { vertical-align:top; }
+
+.contact_label { vertical-align:top; font-family:'Garamond'; font-size:16px; font-weight:bold; width:180px; padding: 5px 0; }
+.contact_input{	padding:5px 0; }
+.contact_label span { color:red; }
+#contact_form input[type=text] { width:280px; }
+#contact_form #fname { width:120px; }
+#contact_form #lname { width:150px; }
+#contact_form #city { width:280px; }
+#contact_form #zip { width:75px; }
+#contact_form #specs { width:280px; }
+
+#contact_form input[type=submit] {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: 'Garamond';
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#contact_form input[type=submit]:hover {
+   background: #2B80B5;
+   color: white;
+   }
+#contact_form table {
+    margin-top:15px;
+    margin-bottom:25px;
+}
+
+table.contact td.info { text-align:center; padding-left:20px; }
+table.contact td.info div { padding:25px 15px; }
+table.contact td.info div table td { text-align:center; }
+table.contact td.info div table td.name { padding-bottom:10px; font-weight:bold; font-size:18px; }
+table.contact td.info div table td.cont-headshot img { border:0px; width:150px; }
+table.contact td.info div table td.cont-info-head { border-bottom:1px solid black; }
+table.contact td.info div table td.cont-info div.address { padding-top:10px; }
+table.contact td.info div table td.cont-info div.phone { padding-top:5px; }
+table.contact td.info div table td.cont-info div.email { padding-top:15px; }
+
+    .snapshot {
+        border: 1px solid #DFDFDF;
+        background-color: #F9F9F9;
+        width:525px;
+    	-moz-border-radius: 3px;
+    	-webkit-border-radius: 3px;
+    	border-radius: 3px;
+    	font-family: "Arial";
+    	color: #333;
+    }
+    .snapshot td, .snapshot th {
+    	border-top-color: white;
+    	border-bottom: 1px solid #DFDFDF;
+    	color: #555;
+    }
+    .snapshot th {
+    	text-shadow: rgba(255, 255, 255, 0.796875) 0px 1px 0px;
+    	font-family: "Georgia";
+    	font-weight: bold;
+    	padding: 7px 7px 8px;
+    	text-align: center;
+    	line-height: 1.3em;
+    	font-size: 14px;
+    }
+    .snapshot thead tr{
+      background-color:#EEEEEE;
+    }
+    
+    .snapshot td {
+      text-align:left;
+    	font-size: 12px;
+    	padding: 4px 7px 2px;
+    	vertical-align: top;
+    }
+    .snapshot .snapshot-logo {
+      text-align:center;
+    }

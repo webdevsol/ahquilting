@@ -1,0 +1,1 @@
+<p>Please let me know if you have any questions or comments about my book, products, classes, lectures, and retreats.  Wholesale inquiries from quilt shops about my templates are also welcome.</p><p>I look forward to hearing from you!</p>

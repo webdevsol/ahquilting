@@ -1,0 +1,103 @@
+
+    .cal-pg {
+      background-color:#DEDEDE;
+      width:75px;
+      height:32px;
+      border-radius:3px;
+      font-family:'Verdana';
+    }
+    .cal-pg table{
+      /*width:62px;*/
+    }
+    .cal-pg hr{
+      border: 0;
+      height: 0;
+      width:50%;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+      margin:5px auto 5px auto;
+      vertical-align:middle;
+    }
+    .cal-pg-mo{
+      font-size:10px;
+      padding:2px 0 0 0;
+      text-align:center;
+      /*float:left;*/ 
+      -ms-transform:rotate(-90deg);
+      -webkit-transform:rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+      vertical-align:middle; 
+      width:40px;
+      /*height:54px;*/
+    }
+    .cal-pg-date{
+      float:left;     
+      color:#144994;
+      font-size:22px;
+      padding:0;
+      width:30px;
+      text-align:center;
+    }
+    
+    .cal-title{
+      color:#000000;
+      font-weight:bold;
+      font-size:14px;
+      font-family:'Verdana';
+      vertical-align:bottom;
+    }               
+    .cal-title a{
+      text-decoration:none;
+      color:#000000;
+    }
+    .cal-title a:hover{
+       color:#2A7FB5;
+    }
+    .cal-desc{
+      color:#636363;
+      font-size:10px;
+      font-family:'Verdana';
+      vertical-align:top;
+    }
+    .cal-date{
+      padding-right:10px;
+      vertical-align:top; 
+    }
+    #cal-nav{
+        width:100%; 
+        text-align:center;    
+    }
+    #cal-list{
+      list-style-type:none; 
+      padding:5px 10px 0 10px;
+      margin-top:0;
+      /*width:298px;
+      border:1px solid #CDCDCD;
+      border-radius:5px;*/
+    }                    
+    #cal-list li{
+    }
+    .event {
+        padding:6px 6px 6px 0;
+        border-radius:2px;
+    }
+    .cal-list-li-hr{
+        padding:0;
+        margin:0;
+    }
+    .cal-list-hr{
+      border: 0;
+      height: 0;
+      width:98%;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+      margin:4px auto 4px auto;
+      vertical-align:middle;
+    }
+    .today{
+      background:rgba(234,224,214,0.7);
+    }

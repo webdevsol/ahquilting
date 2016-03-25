@@ -1,0 +1,46 @@
+body{
+  background-color:#E4C390;
+}
+body p{
+margin:0 0 12px 0;
+}
+#main-frame{      
+  -moz-box-shadow: 0 0 25px #555;
+  -webkit-box-shadow: 0 0 25px #555;
+  box-shadow: 0 0 25px #555;
+  width:1000px; 
+  margin:25px auto;   
+}
+
+#allContent{
+    width:1000px;
+    border-collapse:collapse;
+}
+#sideNavMenu{
+width:143px;   
+}
+#sideNavMenu ul{
+list-style:none;
+padding:0 10px 0 10px;
+margin:0;
+}
+#sideNavMenu li{
+padding:10px 10px;
+}
+#sideNavMenu li:hover{
+background-color:#D6DF46;
+}
+#sideNavMenuSelected{
+background-color:#D6DF46;
+}
+#sideNavMenu a{
+text-decoration:none;
+color:#000;
+}
+#contentSpacer{
+    width:63px;
+}
+#mainContent{
+    width:750px;
+    padding: 0 40px;
+}

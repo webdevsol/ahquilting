@@ -1,0 +1,6 @@
+<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|Oranienbaum|Esteban|Adamina|Quattrocento' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Snippet|Arvo:400,700,400italic,700italic|Grand+Hotel|Expletus+Sans:400,400italic,500,500italic,600,600italic,700,700italic|Trochut:400,700,400italic|Jacques+Francois+Shadow|Roboto+Slab:400,700,100,300|Merriweather:400,900,300,300italic,900italic,700italic,700,400italic|Playfair+Display+SC:400,700,400italic,700italic,900,900italic|Julius+Sans+One|Rosario:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Syncopate|Pinyon+Script' rel='stylesheet' type='text/css'>
